@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,17 +8,38 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenido al Challenge de AluraGeek</h1>
+        <h1><strong>♥ ♥ ♥ <strong>AluraGeek</strong></h1>
     </header>
     <main>
-        <section>
-            <h2>Desarrollo Front-End</h2>
-            <p>Este es un desafío de AluraGeek, donde aprenderás y aplicarás tecnologías web.</p>
+        <section class="products">
+            <h2>Mis Productos</h2>
+            <div id="product-list" class="product-list"></div>    
+        </section>
+        <section class="form-section">
+            <h2>Agregar producto</h2>
+            <form id="product-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price" required>
+                
+                <label for="image">URL de Imagen:</label>
+                <input type="url" id="image" name="image" required>
+                
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 AluraGeek Challenge</p>
-    </footer>
+        <div class="footer-container">
+            <p>Desarrollado por <strong>Graciela Da Silva</strong></p>
+            <p>&copy; 2024 Desarrollado para AluraGeek Challenge</p>
+        </div>
+        
+    <script src="script.js"></script>
 </body>
 </html>
+
 

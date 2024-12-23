@@ -1,0 +1,154 @@
+/* Archivo style.css */
+header {
+    background-color: #5300c8;
+    color: #ffffff; /* Texto en blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    border-bottom: 5px solid #ff6600; /* Borde inferior decorativo */
+    font-family: 'Arial', sans-serif; /* Fuente para el texto */
+}
+
+header h1 {
+    margin: 0; /* Quitar márgenes */
+    font-size: 2.5em; /* Tamaño del texto del título */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo general para el main */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Espaciado entre secciones */
+    padding: 20px;
+}
+
+/* Estilo para la sección de productos */
+.products {
+    flex: 2; /* Ocupa más espacio que el formulario */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.products h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product {
+    width: 20%; /* Ajusta el ancho del producto */
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilo para la sección del formulario */
+.form-section {
+    flex: 1; /* Ocupa menos espacio que los productos */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    color: #555;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #b0c95e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #300871;
+}
+
+
+
+
+/* Estilo del Footer */
+footer {
+    background-color: #5300c8;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #ff6600;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* Hacer el logo circular */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+footer strong {
+    color: #ffcc00; /* Destaca el nombre del desarrollador */
+}
+
+
+
+
